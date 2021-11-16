@@ -4,7 +4,7 @@ pipelineJob('spring-demo-deploy-production-job') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/jacobwestwell/spring-demo.git'
+                        url 'https://github.com/sarah-rose-ferris/zephyr-scale-jira.git'
                     }
                     branch 'main'
                 }
@@ -18,7 +18,7 @@ pipelineJob('spring-demo-deploy-pre-production-job') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/jacobwestwell/spring-demo.git'
+                        url 'https://github.com/sarah-rose-ferris/zephyr-scale-jira.git'
                     }
                     branch 'preprod'
                 }
@@ -32,7 +32,7 @@ pipelineJob('spring-demo-deploy-development-job') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/jacobwestwell/spring-demo.git'
+                        url 'https://github.com/sarah-rose-ferris/zephyr-scale-jira.git'
                     }
                     branch 'develop'
                 }
